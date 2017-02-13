@@ -1,4 +1,5 @@
 app.controller("shopcar",function($scope,$http){
+    console.log(111)
 	$http({
     url:'http://127.0.0.1:3002/list1',
     method: 'get',            

@@ -1,10 +1,11 @@
+
 app.controller('Classify',function($scope,$http){
 	//个护美妆
 	$scope.arr = [];
 	$http.get('http://127.0.0.1:3002/Calssify').success(function(a){		
 		$scope.arr = a.ListContents[0].GroupInfo;
 		$scope.title1 = a.ListContents[0].PinYin;
-//		console.log($scope.arr)
+		console.log($scope.arr)
 		
 	})
 	
