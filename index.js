@@ -22,6 +22,9 @@ app.get('/Calssify', function (req,res){
 app.get('/Classify-brank', function (req,res){
   res.sendFile(__dirname+'/data/car.json');
 });
+app.get('/C_beauty', function (req,res){
+  res.sendFile(__dirname+'/data/3.json');
+});
 var server = app.listen('3002', function () {
   console.log(server.address().address, server.address().port);
 })
