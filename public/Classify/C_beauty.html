@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="Classify/css/C_beauty.css"/>
+	</head>
+	<body>
+		<header class="C3_header">
+			<div class="c3_h1">
+				<a href="#/Classify"><img src="Classify/img/arror.png" class="c3_arror"/></a>
+				<p>个护美妆 <span><img src="Classify/img/list-1.png"/></span></p>
+				<img src="Classify/img/3.png" class="c3_class"/>
+			</div>
+			
+			<div class="c3_h2">
+				<ul>
+					<li style="color:#AC2B3D ;border-bottom: 1px solid #AC2B3D;">全部</li>
+					<li>面部护理</li>
+					<li>身体护理</li>
+					<li>美发护发</li>
+				</ul>
+			</div>
+		</header>
+		
+		<main class='c3_main' >
+			<div ng-repeat="obj in arr" class="c3_m1">
+				<img src={{obj.ListPic}} alt="" />
+				<p class="c3_p1">{{obj.Name}}</p>
+				<p><span>6.7折</span><lable>￥269</lable></p>
+				<p class="c3_p2">￥176</p>
+			</div>
+		</main>
+	</body>
+</html>

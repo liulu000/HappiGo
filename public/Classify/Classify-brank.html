@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+
+		<link rel="stylesheet" type="text/css" href="Classify/css/Classify_brank.css"/>
+	</head>
+	<body >
+		<!--头部-->
+		<header class="C_header">
+			<div class="C_search">
+				<a href="###"><img src="Classify/img/arror.png" class="c_arror"/></a>
+				<input type="text" placeholder="搜索商品、品牌" />
+			</div>
+			
+			<div class="C_class">
+				<ul>
+					<a href="#/Classify"><li >
+						<img src="Classify/img/1-1.png"/>  分类
+					</li></a>
+					<a href=""><li class="c_li1" style=" color:#ac2b3d;">
+						<img src="Classify/img/2-1.png"/>  品牌
+					</li></a>
+				</ul>
+			</div>
+		</header>
+		
+		<!--banner-->
+		<div class="c2_imgs">
+			<ul>
+				<a href="#/C_beauty"><li><img src="Classify/img/05156966151911295.jpg"/></li></a>
+				<a href="#/C_beauty"><li><img src="Classify/img/05156972367714419.jpg"/></li></a>
+				<a href="#/C_beauty"><li><img src="Classify/img/05156974369536520.jpg"/></li></a>
+				<a href="#/C_beauty"><li><img src="Classify/img/05156974811681538.jpg"/></li></a>
+			</ul>
+			<a href=""><p>更多品牌推荐> </p></a>
+		</div>
+		
+		<!--主体-->
+		<main class="C2_main">
+			<div class="c2_m1">
+				<p>{{letter1}}</p>
+				<div ng-repeat="obj in array">
+					<ul>
+						<a href="#/C_beauty"><li><img src={{obj.imgURL}} alt="" />
+						<p class="c_p1"></p>
+						<p>{{obj.MainBrandName}}</p></li></a>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="c2_m1">
+				<p>{{letter2}}</p>
+				<div ng-repeat="obj2 in array2">
+					<ul>
+						<a href="#/C_beauty"><li><img src={{obj2.imgURL}} alt="" />
+						<p class="c_p1"></p>
+						<p>{{obj2.MainBrandName}}</p></li></a>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="c2_m1">
+				<p>{{letter3}}</p>
+				<div ng-repeat="obj3 in array3">
+					<ul>
+						<a href="#/C_beauty"><li><img src={{obj3.imgURL}} alt="" />
+						<p class="c_p1"></p>
+						<p>{{obj3.MainBrandName}}</p></li></a>
+					</ul>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
