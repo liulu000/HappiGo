@@ -6,6 +6,9 @@ app.all('*',function (req,res,next){
   res.header("Access-Control-Allow-Origin", "*");
   next();
 })
+app.get('/list', function (req,res){
+  res.sendFile(__dirname+'/data/1.json');
+});
 app.get('/list2', function (req,res){
   res.sendFile(__dirname+'/data/1.json');
 });
