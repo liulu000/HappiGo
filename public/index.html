@@ -3,6 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<!--手机端布局-->
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="Home/h_css/home.css">
+	
+	
+	
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/angular-route.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body ng-app="myapp">
+	<!--容器-->
+	<div ng-view></div>
+	<ul class="footer" ng-controller="tab">
+		<li ng-repeat="obj in arr">
+			<div class={{obj.cla}}></div>
+			<a href={{obj.href}} ng-click="clik(obj.index)">{{obj.title}}</a>
+		</li>
+		<!--<div id="shop_logo">{{count.length}}</div>-->
+	</ul>
+</body>
+<script type="text/javascript" src='js/app.js'></script>
+<script type="text/javascript" src="Home/h_js/home.js"></script>
 </head>
 <body>
 	

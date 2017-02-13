@@ -1,0 +1,265 @@
+
+.h_out{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 49px;
+}
+
+.h_out2{
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 10;
+}
+header{
+	height: 64px;
+	background: white;
+	width: 100%;
+	display: flex;
+	/*position: fixed;
+	top:0;
+	left: 0;*/
+	text-align: center;
+	z-index: 40;
+	font-family: "Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";
+	overflow: hidden;
+	line-height: 64px;
+}
+
+.back{
+	width: 2.5rem;
+	margin: auto 0;
+	margin-top: 0.3rem;
+}
+
+.back img{
+	width: 50%;
+}
+
+.omit{
+	width: 2.5rem;
+	overflow: hidden;
+	margin-top: 0.3rem;
+}
+
+.omit img{
+	width: 50%;
+}
+
+.title{
+	flex: 1;
+	margin-top: 0.3rem;
+}
+
+.title img{
+	width: 50%;
+}
+
+.h_nav{
+	width: 100%;
+	overflow: hidden;
+	background: white;
+	margin-top: -1px;
+	
+}
+
+.h_nav li{
+	width: 19%;
+	float:left;
+	text-align: center;
+	font-size: 0.95rem;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+	padding: 0.8rem 0;
+}
+
+.h_nav li a{
+	color:black;
+	width: 100%;
+}
+
+.h_nav li:nth-child(1) a{
+	color:#d0435a;
+}
+
+.h_nav li:nth-child(1){
+	border-bottom: 2px solid #d0435a;
+}
+
+
+.h_nav li a:hover{
+	color: #d0435a;
+}
+
+.h_roll{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 122px;
+}
+
+.h_juan{
+	width: 100%;
+	overflow: hidden;
+}
+
+.h_juan img{
+	width: 100%;
+}
+
+.h_free{
+	width: 100%;
+	overflow: hidden;
+	margin-top: -5px;
+	padding-top: 0.3rem;
+	background: white;
+}
+
+.h_free img{
+	width: 100%;
+}
+
+.free_img1{
+	float:left;
+	width: 49.8%;
+}
+
+.free_img2{
+	float:right;
+	width: 49.8%;
+}
+
+.h_sign{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	background: white;
+	padding-bottom: 0.3rem;
+}
+
+.h_sign a{
+	display: inline-block;
+	width: 23%;
+}
+
+.h_sign a img{
+	width: 40%;
+}
+
+.h_sign p{
+	text-align: center;
+	font-size: 0.8rem;
+	color: black;
+}
+
+.h_natural{
+	width: 100%;
+	overflow: hidden;
+}
+
+.h_natural img{
+	width: 100%;
+}
+
+.h_limit{
+	width: 100%;
+	overflow: hidden;
+}
+
+.h_limit h3{
+	background: white;
+}
+
+.h_limit h3 img{
+	width: 12%;
+	vertical-align: middle;
+}
+
+.h_limit h3 span{
+	vertical-align: middle;
+	font-size: 0.9rem;
+}
+
+.h_limit a{
+	display: block;
+}
+
+.h_limit a img{
+	width: 100%;
+}
+
+.h_mackup{
+	width: 100%;
+	overflow: hidden;
+	padding: 0.6rem 0;
+}
+
+.h_mackup a{
+	width: 31.9%;
+	display: inline-block;
+}
+
+.h_mackup a img{
+	width: 100%;
+}
+
+.h_mackup a p:nth-child(2){
+	font-size: 0.8rem;
+	color: black;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.h_mackup a p:nth-child(3){
+	font-size: 0.8rem;
+	color: red;
+}
+
+.h_mackup a p:nth-child(3) span{
+	margin-left: 0.5rem;
+	color: #666;
+	text-decoration: line-through;
+}
+
+.h_listed{
+	width:100%;
+	overflow:hidden;
+}
+
+.h_listed a{
+	width: 48%;
+	display: inline-block;
+	margin:0 0.2rem ;
+	
+}
+
+.h_listed a img{
+	width: 100%;
+}
+
+.h_listed a p:nth-child(2){
+	font-size: 1rem;
+	color: black;
+}
+
+.h_listed a p:nth-child(3){
+	font-size: 0.8rem;
+	color: black;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.h_listed a p:nth-child(4){
+	font-size: 0.8rem;
+	color: red;
+}
+
+.h_listed a p:nth-child(4) span{
+	margin-left: 0.5rem;
+	color: #666;
+	text-decoration: line-through;
+}
+
