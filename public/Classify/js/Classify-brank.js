@@ -1,5 +1,4 @@
 app.controller('Classify_brank',function($scope,$http){
-	
 	$scope.array = [];
 	$http.get('http://127.0.0.1:3002/Classify-brank').success(function(b){
 		$scope.array = b.ListContents[0].GroupInfo;
