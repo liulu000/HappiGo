@@ -4,6 +4,7 @@ app.controller('Classify_brank',function($scope,$http){
 		$scope.array = b.ListContents[0].GroupInfo;
 		$scope.letter1 = b.ListContents[0].PinYin
 		console.log($scope.array)
+		console.log($scope.letter1)
 	})
 	
 	
